@@ -1,38 +1,38 @@
 - title: "A killer whale called Luna"
   youtube_link: "http://www.youtube.com/watch?v=BFFs9PPFiNM"
-  tags: ["toothed_whales","orcas"]
+  tags: ["whales","toothed_whales","orcas"]
 
 - title: "BBC Killer whales beneath the surface"
   official_website: "http://www.bbc.co.uk/programmes/p01jwyvm"
-  tags: ["toothed_whales","orcas"]
+  tags: ["whales","toothed_whales","orcas"]
 
 - title: "BBC Last chance to see Blue Whales"
   official_website: "http://www.bbc.co.uk/programmes/b00nhmwz"
-  tags: ["baleen_whales","blue_whale"]
+  tags: ["whales","baleen_whales","blue_whale"]
 
-- title: "BBC Ocean Giants: Giant Lives"
+- title: "BBC Ocean Giants (1 of 3): Giant Lives"
   official_website: "http://www.bbc.co.uk/programmes/b013q50m"
-  tags: [""]
+  tags: ["whales", "baleen_whales", "toothed_whales", "southern_right_whales", "humpback_whales", "gray_whales", "orcas", "bowhead_whales", "blue_whales"]
 
-- title: "BBC Ocean Giants: Deep Thinkers"
+- title: "BBC Ocean Giants (2 of 3): Deep Thinkers"
   official_website: "http://www.bbc.co.uk/programmes/b013wpxz"
-  tags: [""]
+  tags: ["whales", "toothed_whales", "dolphins", "atlantic_spotted_dolphins", "bottlenose_dolphins", "humpback_whales", "gray_whales", "baleen_whales"]
 
-- title: "BBC Ocean Giants: Voices of the Sea"
+- title: "BBC Ocean Giants (3 of 3): Voices of the Sea"
   official_website: "http://www.bbc.co.uk/programmes/b01452jz"
-  tags: [""]
+  tags: ["whales", "toothed_whales", "baleen_whales", "dolphins", "sperm_whales", "pilot_whales", "narwhals", "boto_dolphins", "orcas", "common_dolphins", "dusky_dolphins", "bottlenose_dolphins", "humpback_whales"]
 
 - title: "BBC The woman who swims with killer whales"
   youtube_link: "http://www.youtube.com/watch?v=ETGHPlZSBNA"
-  tags: ["toothed_whales","orcas"]
+  tags: ["toothed_whales","orcas", "toxicology"]
 
 - title: "Blackfish"
   official_website: "http://blackfishmovie.com/"
-  tags: ["toothed_whales","orcas"]
+  tags: ["toothed_whales","orcas", "captivity"]
 
 - title: "Disappearing Dophins"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/disappearing-dolphins/"
-  tags: [""]
+  tags: ["dolphins", "common_dolphins"]
 
 - title: "Diving with Beaked Whales"
   official_website: "http://www.whaletrackers.com/beaked-whales/"
@@ -40,20 +40,16 @@
 
 - title: "In the eye of the whale"
   vimeo_link: "http://www.documentarylive.com/watch-documentaries/in-the-eye-of-the-whale"
-  tags: [""]
+  tags: ["whales", "toothed_whales", "baleen_whales", "sperm_whales", "minky_whales"]
 
 - title: "Jean Michel Cousteau Ocean Adventures - Call of the Killer Whale"
   official_website: "http://www.pbs.org/kqed/oceanadventures/episodes/killerwhale/"
   youtube_link: "http://www.youtube.com/watch?v=v7OVin11W4Y"
-  tags: [""]
-
-- title: "Jean Michel Cousteau Ocean Adventures - The Gray Whale Obstacle Course"
-  official_website: "http://www.pbs.org/kqed/oceanadventures/episodes/whales/"
-  tags: [""]
+  tags: ["whales", "orcas", "toothed_whales", "whales"]
 
 - title: "Out of the Blue"
   official_website: "http://www.outofthebluedoc.org/index.html"
-  tags: [""]
+  tags: ["dolphins"; "strandings"; "bottlenose_dolphins"]
 
 - title: "Southern Right Whales of Argentina"
   official_website: "http://www.whaletrackers.com/southern-right-whales-of-argentina/"
@@ -61,7 +57,7 @@
 
 - title: "Santuaries of the Sea"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/sanctuaries-of-the-sea/"
-  tags: [""]
+  tags: ["marine_protected_areas", "whales", "dolphins", "toxicology"]
 
 - title: "Spy in the pod: Episode 1"
   official_website: "http://www.bbc.co.uk/programmes/b03n2x1n"
@@ -89,52 +85,43 @@
 
 - title: "Wake of the Baiji"
   official_website: "http://www.whaletrackers.com/wake-of-the-baiji/"
-  tags: [""]
+  tags: ["dolphins", "baiji_dolphins"]
 
 - title: "Whales of the Mediterranean Sea"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/"
-  tags: [""]
+  tags: ["whales", "fin_whales", "toothed_whales", "baleen_whales", "sperm_whales", "bottlenose_dolphins", "common_dolphins", "striped_dolphins", "risso's_dolphins", "pilot_whales"]
 
 - title: "BBC Great Barrier Reef - Nature Miracles"
   official_website: "http://www.bbc.co.uk/nature/places/Great_Barrier_Reef"
   youtube_link: "http://www.youtube.com/watch?v=b_d3LFvc8HQ"
-  tags: [""]
+  tags: ["oceans", "coral_reefs"]
 
 - title: "BBC Great Barrier Reef - Reef to Rainforest"
   official_website: "http://www.bbc.co.uk/nature/places/Great_Barrier_Reef"
   youtube_link: "http://www.youtube.com/watch?v=SA5qhC_Y1sw"
-  tags: [""]
+  tags: ["oceans", "coral_reefs"]
 
 - title: "Blue Planet"
   official_website: "http://www.bbc.co.uk/programmes/b008044n/episodes/guide"
-  tags: [""]
-
-- title: "Jean Michel Cousteau Ocean Adventures - Sharks at Risk"
-  official_website: "http://www.pbs.org/kqed/oceanadventures/episodes/sharks/"
-  tags: [""]
+  tags: ["oceans"]
 
 - title: "King of camouflages"
   official_website: "http://video.pbs.org/video/1150618835/"
   youtube_link: "http://www.youtube.com/watch?v=cgdVVU8tBTQ"
-  tags: [""]
-
-- title: "Oceans"
-  youtube_link: "http://www.youtube.com/watch?v=Mzcfiz73JKE"
-  tags: [""]
+  tags: ["fishes", "cuttlefish"]
 
 - title: "Superfish"
   official_website: "http://www.pbs.org/wnet/nature/episodes/superfish/superfish-introduction/1003/"
-  youtube_link: "http://www.youtube.com/watch?v=2b6DWxQXk1Y"
-  tags: [""]
+  tags: ["fisheries"; "marlin", "fishes"]
 
 - title: "A fall from freedom"
   official_website: "http://afallfromfreedom.org/"
-  tags: [""]
+  tags: ["toothed_whales", "dolphins", "captivity", "bottlenose_dolphins", "orcas"]
 
 - title: "At the edge of the world"
   official_website: "http://www.attheedgeoftheworld.com/"
   youtube_link: "http://www.youtube.com/watch?v=E9n4Fa6toLo"
-  tags: [""]
+  tags: ["ocean_exploitation", "whaling", "humpback_whales", "sea_shepherd"]
 
 - title: "Fishy Business: The Illegal Driftnet Fishery"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/fishy-business/"
@@ -142,7 +129,7 @@
 
 - title: "Hughs Fish Fight"
   official_website: "http://www.fishfight.net/"
-  tags: [""]
+  tags: ["ocean_exploitation","fisheries"]
 
 - title: "Sharkwater"
   youtube_link: "http://www.youtube.com/watch?v=CI1YBCMqbik"
