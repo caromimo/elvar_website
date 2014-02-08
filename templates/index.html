@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Elvar</title>
+    <style type="text/css">
+      body {
+        font-family: sans-serif;
+        padding: 3em;
+        font-size: 14px;
+      }
+      .tag-link:hover{
+        color: #fff;
+        background-color: rgb(106, 130, 151);
+      }
+      .centered{
+        text-align: center;
+      }
+      .tag-link {
+        font-size: 12px;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 4px;
+        background: none repeat scroll 0% 0% rgb(255, 255, 255);
+        margin: 5px;
+        color: rgb(106, 130, 151);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 3px 3px 3px #888888;
+      }
+      h1{
+        background-color: rgb(14, 118, 188);
+        color: #fff;
+        background-color: rgb(14, 118, 188);
+        color: rgb(255, 255, 255);
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        box-shadow: 5px 5px 5px #888888;
+        margin-top: 0px;
+        padding: 40px;
+      }
+      #wrapper{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+      }
+      .buttons{
+        text-align: center;
+        padding: 20px 80px;
+      }
+      .results{
+        padding-left: 300px;
+      }
+      p{
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1 class="centered">Awesome ocean documentaries</h1>
+
+    <div id="wrapper">
+
+      <section class="buttons" >
+      {% for tag in tags %}
+      <a class="tag-link" href="/filter/{{tag}}">{{tag}}</a>
+      {% endfor %}
+      </section>
+
+      <section class="results">
+      {% for video in filtered_videos %}
+      <p>{{video["title"]}}</p>
+      {% endfor %}
+      </section>
+
+    </div>
+  </body>
+</html>

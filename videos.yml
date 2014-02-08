@@ -8,7 +8,7 @@
 
 - title: "BBC Last chance to see Blue Whales"
   official_website: "http://www.bbc.co.uk/programmes/b00nhmwz"
-  tags: ["whales","baleen_whales","blue_whale"]
+  tags: ["whales","baleen_whales","blue_whales"]
 
 - title: "BBC Ocean Giants (1 of 3): Giant Lives"
   official_website: "http://www.bbc.co.uk/programmes/b013q50m"
@@ -49,7 +49,7 @@
 
 - title: "Out of the Blue"
   official_website: "http://www.outofthebluedoc.org/index.html"
-  tags: ["dolphins"; "strandings"; "bottlenose_dolphins"]
+  tags: ["dolphins", "strandings", "bottlenose_dolphins"]
 
 - title: "Southern Right Whales of Argentina"
   official_website: "http://www.whaletrackers.com/southern-right-whales-of-argentina/"
@@ -112,7 +112,7 @@
 
 - title: "Superfish"
   official_website: "http://www.pbs.org/wnet/nature/episodes/superfish/superfish-introduction/1003/"
-  tags: ["fisheries"; "marlin", "fishes"]
+  tags: ["fisheries", "marlin", "fishes"]
 
 - title: "A fall from freedom"
   official_website: "http://afallfromfreedom.org/"
