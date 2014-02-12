@@ -4,6 +4,7 @@ import pymongo
 
 from pymongo import Connection
 connection = Connection('localhost', 27017)
+connection.drop_database('elvar')
 
 # the following indicates which database and collection to interact with:
 db = connection.elvar
