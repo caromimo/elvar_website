@@ -26,6 +26,19 @@
   youtube_link: "http://www.youtube.com/watch?v=ETGHPlZSBNA"
   tags: ["toothed_whales","orcas", "toxicology"]
 
+- title: "PBS Salmon: Running the Gauntlet"
+  official_website: "http://www.pbs.org/wnet/nature/episodes/salmon-running-the-gauntlet/introduction/6546/"
+  youtube_link: "http://www.youtube.com/watch?v=FQb-Hw89GVA"
+  tags: ["salmon","fishes", "fisheries"]
+
+- title: "BBC Last chance to see Blue Whales"
+  official_website: "http://www.bbc.co.uk/programmes/b00nhmwz"
+  tags: ["whales","baleen_whales","blue_whales"]
+
+- title: "BBC Last chance to see Blue Whales"
+  official_website: "http://www.bbc.co.uk/programmes/b00nhmwz"
+  tags: ["whales","baleen_whales","blue_whales"]
+
 - title: "Blackfish"
   official_website: "http://blackfishmovie.com/"
   tags: ["toothed_whales","orcas", "captivity"]
@@ -108,7 +121,7 @@
 - title: "King of camouflages"
   official_website: "http://video.pbs.org/video/1150618835/"
   youtube_link: "http://www.youtube.com/watch?v=cgdVVU8tBTQ"
-  tags: ["fishes", "cuttlefish"]
+  tags: ["oceans", "cuttlefish"]
 
 - title: "Superfish"
   official_website: "http://www.pbs.org/wnet/nature/episodes/superfish/superfish-introduction/1003/"
@@ -131,9 +144,13 @@
   official_website: "http://www.fishfight.net/"
   tags: ["ocean_exploitation","fisheries"]
 
+- title: "The Sea of Zipangu: Deep Sea Gold Rush"
+  watch_on_NHK: "http://bestofnhk.tv/?show=Nhk%20Documentary%20-%20The%20Sea%20of%20Zipangu%20-%202013-10-19%201810.flv"
+  tags: ["ocean_exploitation"]
+
 - title: "Sharkwater"
   youtube_link: "http://www.youtube.com/watch?v=CI1YBCMqbik"
-  tags: ["fishes","sharks"]
+  tags: ["fishes","sharks", "fisheries", "ocean_exploitation"]
 
 - title: "Superfish Bluefin Tuna"
   official_website: "http://channel.nationalgeographic.com/channel/episodes/superfish-bluefin-tuna/"
