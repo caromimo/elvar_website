@@ -1,4 +1,5 @@
 - title: "A killer whale called Luna"
+  official_website: "http://www.bbc.co.uk/programmes/b00q2s16"
   youtube_link: "http://www.youtube.com/watch?v=BFFs9PPFiNM"
   tags: ["whales","toothed_whales","orcas"]
 
@@ -145,7 +146,7 @@
   tags: ["ocean_exploitation","fisheries"]
 
 - title: "The Sea of Zipangu: Deep Sea Gold Rush"
-  watch_on_NHK: "http://bestofnhk.tv/?show=Nhk%20Documentary%20-%20The%20Sea%20of%20Zipangu%20-%202013-10-19%201810.flv"
+  NHK_link: "http://bestofnhk.tv/?show=Nhk%20Documentary%20-%20The%20Sea%20of%20Zipangu%20-%202013-10-19%201810.flv"
   tags: ["ocean_exploitation"]
 
 - title: "Sharkwater"
