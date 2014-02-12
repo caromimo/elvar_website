@@ -78,6 +78,23 @@
       <section class="results">
       {% for video in filtered_videos %}
       <p>{{video["title"]}}</p>
+
+      {% if video["official_website"] %}
+      <a class="official_website" href={{video["official_website"]}}>Official website</a></p>
+      {% endif %}
+
+      {% if video["youtube_link"] %}
+      <a class="youtube_link" href={{video["youtube_link"]}}>Watch on Youtube</a></p>
+      {% endif %}
+
+      {% if video["vimeo_link"] %}
+      <a class="vimeo_link" href={{video["vimeo_link"]}}>Watch on Vimeo</a></p>
+      {% endif %}
+
+      {% if video["NHK_link"] %}
+      <a class="NHK_link" href={{video["NHK_link"]}}>Watch on NHK</a></p>
+      {% endif %}
+
       {% endfor %}
       </section>
 
