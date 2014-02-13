@@ -83,16 +83,8 @@
       <a class="official_website" href={{video["official_website"]}}>Official website</a></p>
       {% endif %}
 
-      {% if video["youtube_link"] %}
-      <a class="youtube_link" href={{video["youtube_link"]}}>Watch on Youtube</a></p>
-      {% endif %}
-
-      {% if video["vimeo_link"] %}
-      <a class="vimeo_link" href={{video["vimeo_link"]}}>Watch on Vimeo</a></p>
-      {% endif %}
-
-      {% if video["NHK_link"] %}
-      <a class="NHK_link" href={{video["NHK_link"]}}>Watch on NHK</a></p>
+      {% if video["watch_online"] %}
+      <a class="watch_online" href={{video["watch_online"]}}>Watch online</a></p>
       {% endif %}
 
       {% endfor %}
