@@ -6,7 +6,6 @@
     <style type="text/css">
       body {
         font-family: sans-serif;
-        padding: 3em;
         font-size: 14px;
       }
       .tag-link:hover{
@@ -26,30 +25,34 @@
         margin: 5px;
         color: rgb(106, 130, 151);
         border: 1px solid rgba(0, 0, 0, 0.1);
-        box-shadow: 3px 3px 3px #888888;
       }
       h1{
-        background-color: rgb(14, 118, 188);
         color: #fff;
         background-color: rgb(14, 118, 188);
-        color: rgb(255, 255, 255);
         position: fixed;
         left: 0px;
         right: 0px;
         top: 0px;
-        box-shadow: 5px 5px 5px #888888;
         margin-top: 0px;
         padding: 40px;
       }
       #wrapper{
-        margin-top: 100px;
+        margin-top: 200px;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
       }
-      .buttons{
+      #buttons{
         text-align: center;
-        padding: 20px 80px;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        right: 0px;
+        top: 112px;
+        background-color: #ffffff;
+        box-shadow: 3px 3px 3px #bbb;
+        padding-top: 15px;
+        padding-bottom: 15px;
       }
       .results{
         padding-left: 300px;
@@ -58,14 +61,14 @@
         padding: 5px;
       }
     </style>
+
   </head>
+
   <body>
 
     <h1 class="centered">Aquatic & marine life documentaries</h1>
 
-    <div id="wrapper">
-
-      <section class="buttons" >
+      <div id="buttons">
       <a class="tag-link" href="/filter/dolphins">Dolphins</a>
       <a class="tag-link" href="/filter/whales">Whales</a>
       <a class="tag-link" href="/filter/orcas">Orcas</a>
@@ -73,7 +76,9 @@
       <a class="tag-link" href="/filter/oceans">Oceans</a>
       <a class="tag-link" href="/filter/fisheries">Fisheries</a>
       <a class="tag-link" href="/filter/ocean_exploitation">Ocean exploitation</a>
-      </section>
+      </div>
+
+      <div id="wrapper">
 
       <section class="results">
       {% for video in filtered_videos %}
@@ -91,5 +96,7 @@
       </section>
 
     </div>
+
   </body>
+
 </html>
