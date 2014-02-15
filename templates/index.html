@@ -1,74 +1,19 @@
 <!DOCTYPE html>
 
 <html>
+
   <head>
     <title>Elvar</title>
-    <style type="text/css">
-      body {
-        font-family: sans-serif;
-        font-size: 14px;
-      }
-      .tag-link:hover{
-        color: #fff;
-        background-color: rgb(106, 130, 151);
-      }
-      .centered{
-        text-align: center;
-      }
-      .tag-link {
-        font-size: 12px;
-        text-decoration: none;
-        display: inline-block;
-        padding: 5px 15px;
-        border-radius: 4px;
-        background: none repeat scroll 0% 0% rgb(255, 255, 255);
-        margin: 5px;
-        color: rgb(106, 130, 151);
-        border: 1px solid rgba(0, 0, 0, 0.1);
-      }
-      h1{
-        color: #fff;
-        background-color: rgb(14, 118, 188);
-        position: fixed;
-        left: 0px;
-        right: 0px;
-        top: 0px;
-        margin-top: 0px;
-        padding: 40px;
-      }
-      #wrapper{
-        margin-top: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-      }
-      #buttons{
-        text-align: center;
-        position: fixed;
-        width: 100%;
-        left: 0px;
-        right: 0px;
-        top: 112px;
-        background-color: #ffffff;
-        box-shadow: 3px 3px 3px #bbb;
-        padding-top: 15px;
-        padding-bottom: 15px;
-      }
-      .results{
-        padding-left: 300px;
-      }
-      p{
-        padding: 5px;
-      }
-    </style>
-
+    <link href="/static/stylesheets/index.css" rel="stylesheet" type="text/css"/>
   </head>
 
   <body>
 
-    <h1 class="centered">Aquatic & marine life documentaries</h1>
+    <div id="header">
+      <h1>Aquatic & marine life documentaries</h1>
+    </div>
 
-      <div id="buttons">
+    <div id="button_container">
       <a class="tag-link" href="/filter/dolphins">Dolphins</a>
       <a class="tag-link" href="/filter/whales">Whales</a>
       <a class="tag-link" href="/filter/orcas">Orcas</a>
@@ -76,25 +21,34 @@
       <a class="tag-link" href="/filter/oceans">Oceans</a>
       <a class="tag-link" href="/filter/fisheries">Fisheries</a>
       <a class="tag-link" href="/filter/ocean_exploitation">Ocean exploitation</a>
+    </div>
+
+    <div id="result_container">
+      {% for video in filtered_videos %}
+
+      <div class="documentary_container">
+        <div class="photo_container">
+          <img class="cover_image" src="/static/images/default_image.png"/>
+        </div>
+
+        <div class="summary_container">
+          <h3>{{video["title"]}}</h3>
+
+          {% if video["duration"] %}
+            <p>Duration: {{video["duration"]}}</p>
+          {% endif %}
+
+          {% if video["official_website"] %}
+            <a class="official_website" href={{video["official_website"]}}>Official website</a>
+          {% endif %}
+
+          {% if video["watch_online"] %}
+            <a class="watch_online" href={{video["watch_online"]}}>Watch online</a>
+          {% endif %}
+        </div>
       </div>
 
-      <div id="wrapper">
-
-      <section class="results">
-      {% for video in filtered_videos %}
-      <p>{{video["title"]}}</p>
-
-      {% if video["official_website"] %}
-      <a class="official_website" href={{video["official_website"]}}>Official website</a></p>
-      {% endif %}
-
-      {% if video["watch_online"] %}
-      <a class="watch_online" href={{video["watch_online"]}}>Watch online</a></p>
-      {% endif %}
-
       {% endfor %}
-      </section>
-
     </div>
 
   </body>
