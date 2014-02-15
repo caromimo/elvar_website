@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 22px;
+  font-size: 12px;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+  background-color: rgb(14, 118, 188);
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  margin-top: 0px;
+  padding: 40px;
+}
+
+h3{
+  display: table-caption;
+  width: 22em;
+}
+
+#button_container{
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  top: 104px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px #bbb;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tag-link:hover{
+  color: #fff;
+  background-color: rgb(106, 130, 151);
+}
+
+#result_container{
+  width: 100%;
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+}
+
+.documentary_container{
+  display: block;
+  margin: 10px auto;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.photo_container{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.summary_container{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+  margin-left: 25px;
+  padding-left: 20 px;
+}
+
+.tag-link, .official_website, .watch_online {
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 4px;
+  background: none repeat scroll 0% 0% rgb(255, 255, 255);
+  margin: 0px;
+  color: rgb(106, 130, 151);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cover_image{
+  width:150px;
+}
