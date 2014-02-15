@@ -2,167 +2,260 @@
   official_website: "http://www.bbc.co.uk/programmes/b00q2s16"
   watch_online: "http://www.youtube.com/watch?v=BFFs9PPFiNM"
   tags: ["whales","toothed_whales","orcas"]
+  year: "2009"
+  duration: "57 min"
 
 - title: "BBC Killer whales beneath the surface"
   official_website: "http://www.bbc.co.uk/programmes/p01jwyvm"
   tags: ["whales","toothed_whales","orcas"]
+  year: "2013"
+  duration: "59 min"
 
 - title: "BBC Last chance to see Blue Whales"
   official_website: "http://www.bbc.co.uk/programmes/b00nhmwz"
   tags: ["whales","baleen_whales","blue_whales"]
+  year: "2010"
+  duration: "59 min"
 
 - title: "BBC Ocean Giants (1 of 3): Giant Lives"
   official_website: "http://www.bbc.co.uk/programmes/b013q50m"
   tags: ["whales", "baleen_whales", "toothed_whales", "southern_right_whales", "humpback_whales", "gray_whales", "orcas", "bowhead_whales", "blue_whales"]
+  year: "2012"
+  duration: "59 min"
 
 - title: "BBC Ocean Giants (2 of 3): Deep Thinkers"
   official_website: "http://www.bbc.co.uk/programmes/b013wpxz"
   tags: ["whales", "toothed_whales", "dolphins", "atlantic_spotted_dolphins", "bottlenose_dolphins", "humpback_whales", "gray_whales", "baleen_whales"]
+  year: "2012"
+  duration: "59 min"
 
 - title: "BBC Ocean Giants (3 of 3): Voices of the Sea"
   official_website: "http://www.bbc.co.uk/programmes/b01452jz"
   tags: ["whales", "toothed_whales", "baleen_whales", "dolphins", "sperm_whales", "pilot_whales", "narwhals", "boto_dolphins", "orcas", "common_dolphins", "dusky_dolphins", "bottlenose_dolphins", "humpback_whales"]
+  year: "2012"
+  duration: "58 min"
 
 - title: "BBC The woman who swims with killer whales"
-  watch_online: "http://www.youtube.com/watch?v=ETGHPlZSBNA"
+  official_website: "http://www.bbc.co.uk/programmes/b0147dw3"
+  watch_online: "https://www.youtube.com/watch?v=Btq6V41QJZM"
   tags: ["toothed_whales","orcas", "toxicology"]
+  year: "2011"
+  duration: "59 min"
 
 - title: "PBS Salmon: Running the Gauntlet"
   official_website: "http://www.pbs.org/wnet/nature/episodes/salmon-running-the-gauntlet/introduction/6546/"
   watch_online: "http://www.youtube.com/watch?v=FQb-Hw89GVA"
   tags: ["salmon","fishes", "fisheries"]
-
-- title: "BBC Last chance to see Blue Whales"
-  official_website: "http://www.bbc.co.uk/programmes/b00nhmwz"
-  tags: ["whales","baleen_whales","blue_whales"]
-
-- title: "BBC Last chance to see Blue Whales"
-  official_website: "http://www.bbc.co.uk/programmes/b00nhmwz"
-  tags: ["whales","baleen_whales","blue_whales"]
+  year: "2011"
+  duration: "60 min"
 
 - title: "Blackfish"
   official_website: "http://blackfishmovie.com/"
   tags: ["toothed_whales","orcas", "captivity"]
+  year: "2013"
+  duration: "83 min"
 
 - title: "Disappearing Dophins"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/disappearing-dolphins/"
   tags: ["dolphins", "common_dolphins"]
+  year: ""
+  duration: "7 min"
 
 - title: "Diving with Beaked Whales"
   official_website: "http://www.whaletrackers.com/beaked-whales/"
   tags: ["toothed_whales","beaked_whales"]
+  year: ""
+  duration: "11 min"
 
 - title: "In the eye of the whale"
   watch_online: "http://www.documentarylive.com/watch-documentaries/in-the-eye-of-the-whale"
   tags: ["whales", "toothed_whales", "baleen_whales", "sperm_whales", "minky_whales"]
+  year: ""
+  duration: "21 min"
 
 - title: "Jean Michel Cousteau Ocean Adventures - Call of the Killer Whale"
   official_website: "http://www.pbs.org/kqed/oceanadventures/episodes/killerwhale/"
   watch_online: "http://www.youtube.com/watch?v=v7OVin11W4Y"
   tags: ["whales", "orcas", "toothed_whales", "whales"]
+  year: ""
+  duration: "47 min"
 
 - title: "Out of the Blue"
   official_website: "http://www.outofthebluedoc.org/index.html"
   tags: ["dolphins", "strandings", "bottlenose_dolphins"]
+  year: ""
+  duration: "18 min"
 
 - title: "Southern Right Whales of Argentina"
   official_website: "http://www.whaletrackers.com/southern-right-whales-of-argentina/"
   tags: ["baleen_whales","southern_right_whales"]
+  year: ""
+  duration: "22 min"
 
 - title: "Santuaries of the Sea"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/sanctuaries-of-the-sea/"
   tags: ["marine_protected_areas", "whales", "dolphins", "toxicology"]
+  year: ""
+  duration: "16 min"
 
 - title: "Spy in the pod: Episode 1"
   official_website: "http://www.bbc.co.uk/programmes/b03n2x1n"
   tags: ["toothed_whales","dolphins"]
+  year: "2013"
+  duration: "60 min"
 
 - title: "Spy in the pod: Episode 2"
   official_website: "http://www.bbc.co.uk/programmes/b03ny6tx"
   tags: ["toothed_whales","dolphins"]
+  year: "2013"
+  duration: "60 min"
 
 - title: "The Dolphins of Shark Bay"
+  official_website: "http://www.monkeymiadolphins.org/"
   watch_online: "http://www.youtube.com/results?search_query=the+dolphins+of+shark+bay&sm=3"
   tags: ["toothed_whales","dolphins"]
+  year: "2010"
+  duration: "60 min"
 
 - title: "The Sperm Whales of Greece"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/sperm-whales-of-greece/"
   tags: ["toothed_whales","sperm_whales"]
+  year: ""
+  duration: "17 min"
 
 - title: "Vaquita - Last Chance for the Desert Porpoise"
   official_website: "http://vaquita.tv/documentary/introduction/"
   tags: ["toothed_whales","porpoises"]
+  year: ""
+  duration: "50 min"
 
 - title: "Vaquita - Saving the Desert Porpoise"
   official_website: "http://www.whaletrackers.com/vaquita-saving-the-desert-porpoise/"
   tags: ["toothed_whales","porpoises"]
+  year: ""
+  duration: "9 min"
 
 - title: "Wake of the Baiji"
   official_website: "http://www.whaletrackers.com/wake-of-the-baiji/"
   tags: ["dolphins", "baiji_dolphins"]
+  year: ""
+  duration: "8 min"
 
 - title: "Whales of the Mediterranean Sea"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/"
   tags: ["whales", "fin_whales", "toothed_whales", "baleen_whales", "sperm_whales", "bottlenose_dolphins", "common_dolphins", "striped_dolphins", "risso's_dolphins", "pilot_whales"]
+  year: ""
+  duration: "10 min"
 
 - title: "BBC Great Barrier Reef - Nature Miracles"
   official_website: "http://www.bbc.co.uk/nature/places/Great_Barrier_Reef"
   watch_online: "http://www.youtube.com/watch?v=b_d3LFvc8HQ"
   tags: ["oceans", "coral_reefs"]
+  year: ""
+  duration: "59 min"
 
 - title: "BBC Great Barrier Reef - Reef to Rainforest"
   official_website: "http://www.bbc.co.uk/nature/places/Great_Barrier_Reef"
   watch_online: "http://www.youtube.com/watch?v=SA5qhC_Y1sw"
   tags: ["oceans", "coral_reefs"]
+  year: ""
+  duration: "59 min"
 
-- title: "Blue Planet"
-  official_website: "http://www.bbc.co.uk/programmes/b008044n/episodes/guide"
-  tags: ["oceans"]
+- title: "BBC Great Barrier Reef - Reef and Beyond"
+  official_website: "http://www.bbc.co.uk/nature/places/Great_Barrier_Reef"
+  tags: ["oceans", "coral_reefs"]
+  year: ""
+  duration: "59 min"
 
 - title: "King of camouflages"
   official_website: "http://video.pbs.org/video/1150618835/"
   watch_online: "http://www.youtube.com/watch?v=cgdVVU8tBTQ"
   tags: ["oceans", "cuttlefish"]
+  year: ""
+  duration: "53 min"
 
 - title: "Superfish"
   official_website: "http://www.pbs.org/wnet/nature/episodes/superfish/superfish-introduction/1003/"
   tags: ["fisheries", "marlin", "fishes"]
+  year: ""
+  duration: "55 min"
 
 - title: "A fall from freedom"
   official_website: "http://afallfromfreedom.org/"
   tags: ["toothed_whales", "dolphins", "captivity", "bottlenose_dolphins", "orcas"]
+  year: ""
+  duration: "80 min"
 
 - title: "At the edge of the world"
   official_website: "http://www.attheedgeoftheworld.com/"
-  watch_online: "http://www.youtube.com/watch?v=E9n4Fa6toLo"
+  watch_online: "https://www.youtube.com/watch?v=6Z706ccqrx4"
   tags: ["ocean_exploitation", "whaling", "humpback_whales", "sea_shepherd"]
+  year: ""
+  duration: "90 min"
 
 - title: "Fishy Business: The Illegal Driftnet Fishery"
   official_website: "http://www.whaletrackers.com/whales-mediterranean-sea/fishy-business/"
   tags: ["ocean_exploitation","fisheries"]
+  year: ""
+  duration: "14 min"
 
-- title: "Hughs Fish Fight"
+- title: "Hughs Fish Fight (3 episodes)"
   official_website: "http://www.fishfight.net/"
   tags: ["ocean_exploitation","fisheries"]
-
-- title: "The Sea of Zipangu: Deep Sea Gold Rush"
-  watch_online: "http://bestofnhk.tv/?show=Nhk%20Documentary%20-%20The%20Sea%20of%20Zipangu%20-%202013-10-19%201810.flv"
-  tags: ["ocean_exploitation"]
+  year: ""
+  duration: "47 min"
 
 - title: "Sharkwater"
+  official_website: "http://www.sharkwater.com/"
   watch_online: "http://www.youtube.com/watch?v=CI1YBCMqbik"
   tags: ["fishes","sharks", "fisheries", "ocean_exploitation"]
+  year: "2006"
+  duration: "88 min"
 
 - title: "Superfish Bluefin Tuna"
   official_website: "http://channel.nationalgeographic.com/channel/episodes/superfish-bluefin-tuna/"
-  watch_online: "http://www.youtube.com/watch?v=wptKAOTy3uY"
   tags: ["fishes","tuna"]
+  year: ""
+  duration: "45 min"
 
 - title: "The Cove"
   official_website: "http://www.thecovemovie.com/"
-  watch_online: "http://www.youtube.com/watch?v=mc2arU61LSg"
   tags: ["toothed_whales","dolphins","ocean_exploitation"]
+  year: "2009"
+  duration: "92 min"
 
 - title: "The End of the Line"
   official_website: "http://endoftheline.com/"
   tags: ["fishes","ocean_exploitation","fisheries"]
+  year: "2009"
+  duration: "85 min"
+
+- title: "UltimaTuna"
+  official_website: "http://newatlantis.net/english/index.php?Itemid=32&option=com_zoo&view=item&category_id=0&item_id=2"
+  watch_online: "http://fishing.vmpee.com/ultimatuna-the-reproductive-orgy-of-the-tuna/"
+  year: "2010"
+  duration: "57 min"
+
+- title: "Whale Adventures with Nigel Marven (1 of 4) - An Incredible Journey Begins"
+  tags: ["whales", "oceans"]
+  official_website: "http://www.channel5.com/shows/whale-adventure-with-nigel-marven/episodes/episode-1-522"
+  year: ""
+  duration: "45 min"
+
+- title: "Whale Adventures with Nigel Marven (2 of 4) - North to the Golden Gate"
+  tags: ["whales", "oceans"]
+  official_website: "http://www.channel5.com/shows/whale-adventure-with-nigel-marven/episodes/episode-2-506"
+  year: ""
+  duration: "45 min"
+
+- title: "Whale Adventures with Nigel Marven (3 of 4) - Swimming with Giants"
+  tags: ["whales", "oceans"]
+  official_website: "http://www.channel5.com/shows/whale-adventure-with-nigel-marven/episodes/episode-3-479"
+  year: ""
+  duration: "45 min"
+
+- title: "Whale Adventures with Nigel Marven (4 of 4) - Journey's Ends"
+  tags: ["whales", "oceans"]
+  official_website: "http://www.channel5.com/shows/whale-adventure-with-nigel-marven/episodes/episode-1-522"
+  year: ""
+  duration: "45 min"
