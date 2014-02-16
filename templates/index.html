@@ -28,7 +28,12 @@
 
       <div class="documentary_container">
         <div class="photo_container">
-          <img class="cover_image" src="/static/images/default_image.png"/>
+          {% if video["thumbnail"] %}
+          <img class="cover_image" src="/static/images/{{video["thumbnail"]}}"/>
+          {% else %}
+          <img class="cover_image"
+          src="/static/images/resized_default_image.png">
+          {% endif %}
         </div>
 
         <div class="summary_container">
