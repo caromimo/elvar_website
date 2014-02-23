@@ -24,13 +24,13 @@
     </div>
 
     <div id="button_container">
-      <a class="tag-link" href="/filter/dolphins">Dolphins</a>
-      <a class="tag-link" href="/filter/whales">Whales</a>
-      <a class="tag-link" href="/filter/orcas">Orcas</a>
-      <a class="tag-link" href="/filter/fishes">Fishes</a>
-      <a class="tag-link" href="/filter/oceans">Oceans</a>
-      <a class="tag-link" href="/filter/fisheries">Fisheries</a>
-      <a class="tag-link" href="/filter/ocean_exploitation">Ocean exploitation</a>
+      <a class="tag-link" href="/{{current_locale}}/filter/dolphins">{{_("dolphins")}}</a>
+      <a class="tag-link" href="/{{current_locale}}/filter/whales">{{_("whales_button")}}</a>
+      <a class="tag-link" href="/{{current_locale}}/filter/orcas">{{_("orcas_button")}}</a>
+      <a class="tag-link" href="/{{current_locale}}/filter/fishes">{{_("fishes_button")}}</a>
+      <a class="tag-link" href="/{{current_locale}}/filter/oceans">{{_("oceans_button")}}</a>
+      <a class="tag-link" href="/{{current_locale}}/filter/fisheries">{{_("fisheries_button")}}</a>
+      <a class="tag-link" href="/{{current_locale}}/filter/ocean_exploitation">{{_("ocean_exploitation_button")}}</a>
     </div>
 
     <div id="result_container">
@@ -65,6 +65,11 @@
 
       {% endfor %}
     </div>
+
+<!--
+    <div id="footer">
+      </div>
+-->
 
   </body>
 
