@@ -20,11 +20,11 @@
   <body>
 
     <div id="header">
-      <h1>Aquatic & marine life documentaries</h1>
+      <h1>{{_("title")}}</h1>
     </div>
 
     <div id="button_container">
-      <a class="tag-link" href="/{{current_locale}}/filter/dolphins">{{_("dolphins")}}</a>
+      <a class="tag-link" href="/{{current_locale}}/filter/dolphins">{{_("dolphins_button")}}</a>
       <a class="tag-link" href="/{{current_locale}}/filter/whales">{{_("whales_button")}}</a>
       <a class="tag-link" href="/{{current_locale}}/filter/orcas">{{_("orcas_button")}}</a>
       <a class="tag-link" href="/{{current_locale}}/filter/fishes">{{_("fishes_button")}}</a>
@@ -50,15 +50,16 @@
           <h3>{{video["title"]}}</h3>
 
           {% if video["duration"] %}
-            <p>Duration: {{video["duration"]}}</p>
+            <p>{{_("duration")}}: {{video["duration"]}}</p>
           {% endif %}
 
           {% if video["official_website"] %}
-            <a class="official_website" href={{video["official_website"]}}>Official website</a>
+            <a class="official_website"
+              href={{video["official_website"]}}>{{_("official_website")}}</a>
           {% endif %}
 
           {% if video["watch_online"] %}
-            <a class="watch_online" href={{video["watch_online"]}}>Watch online</a>
+            <a class="watch_online" href={{video["watch_online"]}}>{{_("watch_online")}}</a>
           {% endif %}
         </div>
       </div>

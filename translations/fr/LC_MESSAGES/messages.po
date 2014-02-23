@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-02-22 16:43-0500\n"
+"POT-Creation-Date: 2014-02-22 19:51-0500\n"
 "PO-Revision-Date: 2014-02-22 16:44-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -17,8 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 
+#: templates/index.html:23
+msgid "title"
+msgstr "Documentaires sur la vie marine et aquatique"
+
 #: templates/index.html:27
-msgid "dolphins"
+msgid "dolphins_button"
 msgstr "Dauphins"
 
 #: templates/index.html:28
@@ -45,3 +49,14 @@ msgstr "Pêches"
 msgid "ocean_exploitation_button"
 msgstr "Exploitation des océans"
 
+#: templates/index.html:53
+msgid "duration"
+msgstr "Durée"
+
+#: templates/index.html:58
+msgid "official_website"
+msgstr "Site officiel"
+
+#: templates/index.html:62
+msgid "watch_online"
+msgstr "Regarder en ligne"
