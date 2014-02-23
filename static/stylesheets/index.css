@@ -21,6 +21,21 @@ h1{
   padding: 40px;
 }
 
+.selected_language {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 0px;
+  color: rgb(106, 130, 151);
+}
+
+#language_container {
+  position: fixed;
+  right: 2em;
+}
+
 h3{
   display: table-caption;
   width: 22em;

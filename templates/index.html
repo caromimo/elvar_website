@@ -31,6 +31,12 @@
       <a class="tag-link" href="/{{current_locale}}/filter/oceans">{{_("oceans_button")}}</a>
       <a class="tag-link" href="/{{current_locale}}/filter/fisheries">{{_("fisheries_button")}}</a>
       <a class="tag-link" href="/{{current_locale}}/filter/ocean_exploitation">{{_("ocean_exploitation_button")}}</a>
+      <span id="language_container">
+        <a class="selected_language" href="/en/">En</a>
+        <a class="selected_language" href="/fr/">Fr</a>
+        <a class="selected_language" href="/pt/">Pt</a>
+        <a class="selected_language" href="/de/">De</a>
+      </span>
     </div>
 
     <div id="result_container">
@@ -54,8 +60,7 @@
           {% endif %}
 
           {% if video["official_website"] %}
-            <a class="official_website"
-              href={{video["official_website"]}}>{{_("official_website")}}</a>
+            <a class="official_website" href={{video["official_website"]}}>{{_("official_website")}}</a>
           {% endif %}
 
           {% if video["watch_online"] %}
