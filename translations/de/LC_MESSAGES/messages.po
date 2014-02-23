@@ -59,4 +59,5 @@ msgstr "Offizielle Website"
 
 #: templates/index.html:62
 msgid "watch_online"
-msgstr "Watch online"
+msgstr "Online ansehen"
+

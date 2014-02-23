@@ -60,3 +60,4 @@ msgstr "Site officiel"
 #: templates/index.html:62
 msgid "watch_online"
 msgstr "Regarder en ligne"
+

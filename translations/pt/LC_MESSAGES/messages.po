@@ -60,3 +60,4 @@ msgstr "Site oficial"
 #: templates/index.html:62
 msgid "watch_online"
 msgstr "Assista online"
+
